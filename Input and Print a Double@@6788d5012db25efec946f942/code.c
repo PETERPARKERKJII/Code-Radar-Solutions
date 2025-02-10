@@ -7,4 +7,7 @@ int main() {
     scanf("%lf", &num);
 
     // Print the entered number
-    printf("You ent
+    printf("You entered: %lf\n", num);
+
+    return 0;
+}
