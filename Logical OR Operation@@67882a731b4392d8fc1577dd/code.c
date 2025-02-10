@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int number;
+    int num1, num2;
     
-    // Read the input
-    scanf("%d", &number);
+    // Read two space-separated integers
+    scanf("%d %d", &num1, &num2);
     
-    // Check if the number is not greater than zero
-    if (number <= 0) {
+    // Check if at least one number is greater than zero
+    if (num1 > 0 || num2 > 0) {
         printf("True\n");
     } else {
         printf("False\n");
@@ -15,3 +15,4 @@ int main() {
     
     return 0;
 }
+
