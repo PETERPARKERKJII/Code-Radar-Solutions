@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    float num;
+    double num;
 
     // Read a double-precision floating-point number
     scanf("%lf", &num);
