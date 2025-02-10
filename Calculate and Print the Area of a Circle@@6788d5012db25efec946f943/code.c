@@ -13,4 +13,8 @@ int main() {
     // Print the area with 2 decimal places
     printf("Area: %.2f\n", area);
 
+    return 0;
+}
+
+
     
