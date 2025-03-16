@@ -7,7 +7,7 @@ int main() {
     scanf("%d %d", &num1, &num2);
     
     // Check the condition using logical NOT (!) and logical OR (||)
-    if ((!num1 > 0) || (!num2 > 0)) {
+    if (!(num1 > 0) || !(num2 > 0)) {
         printf("True\n");
     } else {
         printf("False\n");
