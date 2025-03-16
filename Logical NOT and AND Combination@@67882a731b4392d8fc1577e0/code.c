@@ -6,8 +6,8 @@ int main() {
     // Read two space-separated integers
     scanf("%d %d", &num1, &num2);
     
-    // Check the condition using logical AND (&&) and OR (||)
-    if ()(!num1>0) || (!num2>0)) {
+    // Check the condition using logical NOT (!) and logical OR (||)
+    if ((!num1 > 0) || (!num2 > 0)) {
         printf("True\n");
     } else {
         printf("False\n");
