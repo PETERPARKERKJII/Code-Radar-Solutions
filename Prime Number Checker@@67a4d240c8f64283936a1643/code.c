@@ -9,7 +9,7 @@ int isprimenumber(int n){
 }
 int main(){
     int n;
-    printf("enter number: ")l
+    printf("enter number: ")
     scanf("%d", &n);
     if (isprimenumber(n)){
         printf("%d is a prime number.\n",n);
