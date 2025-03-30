@@ -12,9 +12,9 @@ int main(){
     printf("enter number: ")l
     scanf("%d", &n);
     if (isprimenumber(n)){
-        printf("%d is a prime number.\n",num);
+        printf("%d is a prime number.\n",n);
     }else{
-        printf("%d is not a prime number.\n",num);
+        printf("%d is not a prime number.\n",n);
     }
     return 0;
 }
