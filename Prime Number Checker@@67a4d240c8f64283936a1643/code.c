@@ -1,28 +1,16 @@
-#include <stdio.h>
-#include <math.h>
-
-int isPrime(int n) {
-    if (n < 2) return 0;  // Numbers less than 2 are not prime
-
-    for (int i = 2; i <= sqrt(n); i++) {  // Loop from 2 to sqrt(n)
-        if (n % i == 0) return 0;  // If divisible, it's not prime
+int isPrime(int num){
+    if(num>0){
+        if(num<2){
+            return 0;
+        }
+        else{
+            for(int i=2;i<num;i++){
+                if(num%i==0){
+                    return 0;
+                    break;
+                }
+            }
+            return 1;
+        }
     }
-
-    return 1;  // If no divisors are found, it's prime
 }
-
-int main() {
-    int n;
-    printf("Enter number: ");  // Fixed missing semicolon
-    scanf("%d", &n);
-
-    if (isPrime(n)) {
-        printf("%d is a prime number.\n", n);
-    } else {
-        printf("%d is not a prime number.\n", n);
-    }
-
-    return 0;
-}
-
-
