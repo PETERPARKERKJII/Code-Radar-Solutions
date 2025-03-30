@@ -1,6 +1,4 @@
-#include <stdio.h>
-
-// Function to perform Bubble Sort
+#include<stdio.h>
 void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) {  // Runs n-1 times
         for (int j = 0; j < n - i - 1; j++) { // Compares adjacent elements
@@ -23,7 +21,7 @@ void printArray(int arr[], int n) {
 
 // Main function
 int main() {
-    int arr[] = {64, 34, 25, 12, 22, 11, 90}; // Sample array
+    int arr[] = {5,1,4,2,8}; // Sample array
     int n = sizeof(arr) / sizeof(arr[0]); // Calculate array size
 
     printf("Original array: ");
